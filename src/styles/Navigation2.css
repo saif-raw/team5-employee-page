@@ -1,0 +1,63 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Catamaran&display=swap');
+
+/* Nav Bar */
+#nav-wrap {
+    font: 15px 'opensans-bold', sans-serif;
+    width: 100%;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    margin: 0 auto;
+    z-index: 100;
+    position: absolute;
+    left: 0;
+    top: 0;
+ }
+ .opaque { background-color: #333; }
+ 
+ /* hide toggle button */
+ #nav-wrap > a.mobile-btn { display: none; }
+ 
+ ul#nav {
+    min-height: 48px;
+    width: auto;
+    /* center align the menu */
+    text-align: center;
+ }
+ ul#nav li {
+    position: relative;
+    list-style: none;
+    height: 48px;
+    display: inline-block;
+ }
+ 
+ /* Links */
+ ul#nav li a {
+ 
+    display: inline-block;
+    padding: 8px 23px;
+    line-height: 32px;
+     text-decoration: none;
+    text-align: left;
+    color: rgb(44, 44, 44);
+ 
+     -webkit-transition: color .2s ease-in-out;
+     -moz-transition: color .2s ease-in-out;
+     -o-transition: color .2s ease-in-out;
+     -ms-transition: color .2s ease-in-out;
+     transition: color .2s ease-in-out;
+ }
+ 
+ ul#nav li a:active { background-color: transparent !important; }
+ ul#nav li.current a { color: #fe6928; }
+
+ .nav-route{
+    padding-top: 10px;
+    color: rgb(36, 36, 36);
+    /* font-family: 'Roboto', sans-serif; */
+    font-family: 'Catamaran', sans-serif;
+    font-size: 20px;
+    text-transform:none;
+ }
+ 
+
